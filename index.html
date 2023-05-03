@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex flex-col items-center pt-16 h-fit bg-gray-500">
+  
+        <div class="w-3/12 border border-black mb-6 bg-gray-200">
+          <header class="w-full bg-gray-800 flex justify-between border-b border-black">
+            <div class="m-2">L</div>
+            <h3 class="mt-2">Editor</h3>
+            <div class="m-2">X</div>
+          </header>
+          <textarea id="editor" name="editor" class="w-full bg-gray-200 border-0 p-5 h-48 bg-gray-200">
+      
+      # h1
+      
+      ## h2
+      
+      ### h3
+      
+      #### h4
+      
+      ##### h5
+      
+      ###### h6
+      
+          </textarea>
+        </div>
+        
+        <main class="w-8/12 border border-black">
+          <div class="w-full bg-gray-800 flex justify-between border-b border-black">
+            <div class="m-2">L</div>
+            <h3 class="mt-2">Previewer</h3>
+            <div class="m-2">X</div>
+          </div>
+          <div id="preview" class="w-full border-0 p-5 bg-gray-200">
+            
+          </div>
+       </main>
+      </div>
+      
+    <script src="index.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.3/marked.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
