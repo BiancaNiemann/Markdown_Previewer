@@ -1,45 +1,47 @@
 # Markdown Previewer
- # Welcome to my React Markdown Previewer!
 
-## This is a sub-heading...
-### And here's some other cool stuff:
+This is the second challenge on the FreeCodeCamp Front End Development Libraries course.
 
-Heres some code, `<div></div>`, between 2 backticks.
+## Table of contents
 
-```
-// this is multi-line code:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-function anotherExample(firstLine, lastLine) {
-  if (firstLine == '```' && lastLine == '```') {
-    return multiLineCode;
-  }
-}
-```
+## Overview
 
-You can also make text **bold**... whoa!
-Or _italic_.
-Or... wait for it... **_both!_**
-And feel free to go crazy ~~crossing stuff out~~.
+### The challenge
 
-There's also [links](https://www.freecodecamp.org), and
-> Block Quotes!
+Users should be able to:
 
-And if you want to get really crazy, even tables:
+- Enter text into the editor and the preview section is updated as they type
+- If user enters GitHub flavoured markdown into the editor, the text should render as HTML in the preview section
+- When previewer first loads it should already contain default text with certain elements
 
-Wild Header | Crazy Header | Another Header?
------------- | ------------- | -------------
-Your content can | be here, and it | can be here....
-And here. | Okay. | I think we get it.
+- I used vanila JS for this as I wanted to brush up a bit on just keeping it simple for a change.
 
-- And of course there are lists.
-  - Some are bulleted.
-     - With different indentation levels.
-        - That look like this.
+### Screenshot
 
+![](./Markdown_img.JPG)
 
-1. And there are numbered lists too.
-1. Use just 1s if you want!
-1. And last but not least, let's not forget embedded images:
+### Links
 
-![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
+- Solution URL: [https://github.com/BiancaNiemann/Markdown_Previewer](https://github.com/BiancaNiemann/Markdown_Previewer)
+- Live Site URL: [https://biancaniemann.github.io/Markdown_Previewer/](https://biancaniemann.github.io/Markdown_Previewer/)
 
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Javascript
+
+## Author
+
+- Website - [Bianca Niemann](https://portfolio-seven-sepia-13.vercel.app/)
+- LinkedIn - [@BiancaNiemann](https://www.linkedin.com/in/bianca-niemann-8671b1246/)
