@@ -1,0 +1,121 @@
+/*---------------------------
+    Markdown Text Settings
+  ---------------------------*/
+
+  h1{
+    border-bottom: 3px solid black;
+  }
+
+  h2{
+    border-bottom: 2px solid black;
+  }
+
+  p code{
+    background-color: white;
+  }
+
+  pre{
+    background-color: white;
+    font-weight: bold;
+    font-size: 1.25rem
+  }
+
+  blockquote{
+    border-left: 3px solid #114B5F;
+    padding-left: 0.5em;
+    color: #114B5F
+  }
+
+  table{
+    border-collapse: collapse;
+  }
+
+  table td, table th{
+    border: 3px solid #114B5F;
+    padding: 1em
+  }
+
+  p img{
+    max-width:50rem
+  }
+/*---------------------------
+    Main body Settings
+  ---------------------------*/
+
+body {
+  width: 100%;
+  background-color: #88D498;
+}
+
+.container {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.editor-box {
+  max-width: 500px;
+  margin-bottom: 1.5em;
+}
+
+.preview-box {
+  min-width: 500px;
+  min-height: 500px;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.editor-box,
+.preview-box {
+  border: 1px solid black;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  border-bottom: 1px solid black;
+  background-color: #1A936F;
+  padding: 0.5em 1em;
+  color: #114B5F;
+  font-size: 1.25rem;
+}
+
+.title {
+  margin: 0;
+}
+
+textarea {
+  max-width: 100%;
+  min-width: 500px;
+  min-height: 250px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.preview,
+textarea,
+.preview-box,
+.editor-box {
+  background-color: #C6DABF;
+}
+
+textarea:focus {
+  border: none;
+  outline: none;
+}
+
+.preview{
+  padding: 0 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fa{
+  font-size: 1.5rem;
+}
+
+.fa-arrows-alt{
+  cursor: pointer;
+}
